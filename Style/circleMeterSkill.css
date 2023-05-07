@@ -1,0 +1,162 @@
+.box .percent
+{
+  width:150px;
+  height:150px;
+  position:relative;
+}
+.box .percent svg
+{
+  width:100px;
+  height:100px;
+  position:relative;
+}
+.box .percent svg circle
+{
+  width:150px;
+  height:150px;
+  fill:none;
+  stroke-width:10;
+  stroke:#000;
+  transform:translate(5px,5px);
+  stroke-dasharray:440;
+  stroke-dashoffset:440;
+  stroke-linecap:round;
+}
+.box .percent svg circle:nth-child(1)
+{
+  stroke-dashoffset:0;
+  stroke:rgba(207, 185, 185, 0.964);
+}
+.box .percent svg circle:nth-child(2)
+{
+    stroke-dashoffset:calc(440 - 50*30);
+  stroke:rgb(244, 31, 3);
+}
+
+.box{
+    display: inline-block;
+}
+
+
+
+/* this is for css 
+ */
+
+ .box .forcss
+{
+  width:150px;
+  height:150px;
+  position:relative;
+}
+.box .forcss svg
+{
+  width:100px;
+  height:100px;
+  position:relative;
+}
+.box .forcss svg circle
+{
+  width:150px;
+  height:150px;
+  fill:none;
+  stroke-width:10;
+  stroke:#000;
+  transform:translate(5px,5px);
+  stroke-dasharray:440;
+  stroke-dashoffset:440;
+  stroke-linecap:round;
+}
+.box .forcss svg circle:nth-child(1)
+{
+  stroke-dashoffset:0;
+  stroke:rgba(207, 185, 185, 0.964);
+}
+.box .forcss svg circle:nth-child(2)
+{
+    stroke-dashoffset:calc(520 - 50*40);
+  stroke:rgb(59, 244, 3);
+}
+
+
+/* for js  */
+
+
+.box .forjs
+{
+  width:150px;
+  height:150px;
+  position:relative;
+}
+.box .forjs svg
+{
+  width:100px;
+  height:100px;
+  position:relative;
+}
+.box .forjs svg circle
+{
+  width:150px;
+  height:150px;
+  fill:none;
+  stroke-width:10;
+  stroke:#000;
+  transform:translate(5px,5px);
+  stroke-dasharray:440;
+  stroke-dashoffset:440;
+  stroke-linecap:round;
+}
+.box .forjs svg circle:nth-child(1)
+{
+  stroke-dashoffset:0;
+  stroke:rgba(207, 185, 185, 0.964);
+}
+.box .forjs svg circle:nth-child(2)
+{
+    stroke-dashoffset:calc(440 - 50*80);
+  stroke:rgb(3, 169, 244);
+}
+
+
+/* for ai */
+
+
+.box .forAi
+{
+  width:150px;
+  height:150px;
+  position:relative;
+}
+.box .forAi svg
+{
+  width:100px;
+  height:100px;
+  position:relative;
+}
+.box .forAi svg circle
+{
+  width:150px;
+  height:150px;
+  fill:none;
+  stroke-width:10;
+  stroke:#000;
+  transform:translate(5px,5px);
+  stroke-dasharray:440;
+  stroke-dashoffset:440;
+  stroke-linecap:round;
+}
+.box .forAi svg circle:nth-child(1)
+{
+  stroke-dashoffset:0;
+  stroke:rgba(207, 185, 185, 0.964);
+}
+.box .forAi svg circle:nth-child(2)
+{
+    stroke-dashoffset:calc(440 - 20*10);
+  stroke:rgb(223, 247, 8);
+}
+
+
+
+.box{
+    display: inline-block;
+}
